@@ -54,4 +54,26 @@ public class LoginController {
 			return mavLoginFailure;
 		}
 	}
+	
+	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+	public ModelAndView logout(HttpServletRequest request) {
+		HttpSession session = request.getSession();
+		session.invalidate();
+		ModelAndView view = new ModelAndView("/index");
+		return view;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
