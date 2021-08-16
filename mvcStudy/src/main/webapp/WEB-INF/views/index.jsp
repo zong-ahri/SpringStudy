@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="container">
-		<jsp:include page="/WEB-INF/views/include/header_login.jsp"></jsp:include>
+		<jsp:include page="/WEB-INF/views/include/header.jsp"></jsp:include>
         <main>
             <article id="mainimage">
                 <div id="swiper-container__id" class="swiper-container">
@@ -38,6 +38,5 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
-    <script src="js/borderInsert.js"></script>
 </body>
 </html>

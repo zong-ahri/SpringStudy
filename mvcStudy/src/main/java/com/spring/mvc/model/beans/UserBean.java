@@ -1,4 +1,4 @@
-package com.spring.mvc.model;
+package com.spring.mvc.model.beans;
 
 public class UserBean {
 

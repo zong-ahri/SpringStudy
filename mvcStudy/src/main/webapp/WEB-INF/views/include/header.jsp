@@ -17,7 +17,7 @@
                 		<div>
 		                    <a href="/login" class="__links">로그인</a>
 		                    <a href="/join" class="__links">회원가입</a>
-             			   </div>
+             			</div>
                 	</c:when>
                 	<c:otherwise>
                 		<div>

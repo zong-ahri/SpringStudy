@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.spring.mvc.dao.LoginDAO;
 import com.spring.mvc.model.LoginModel;
-import com.spring.mvc.model.UserBean;
+import com.spring.mvc.model.beans.UserBean;
 import com.spring.mvc.service.LoginService;
 
 @Controller
