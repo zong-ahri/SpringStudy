@@ -26,7 +26,7 @@ public class Main {
 		List<Student> list = session.selectList("Student.getStudentList");
 		
 		for(Student s : list) {
-			System.out.println(s);
+			System.out.println(s); 
 		}
 	}
 
