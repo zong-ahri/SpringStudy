@@ -3,7 +3,7 @@ package com.spring.mvc.model.beans;
 public class BorderBean {
 	private int border_code;
 	private String border_title;
-	private String border_cpmtent;
+	private String border_content;
 	private String border_file;
 	private String writer_name;
 	private String writer_ip;
@@ -22,11 +22,11 @@ public class BorderBean {
 	public void setBorder_title(String border_title) {
 		this.border_title = border_title;
 	}
-	public String getBorder_cpmtent() {
-		return border_cpmtent;
+	public String getBorder_content() {
+		return border_content;
 	}
-	public void setBorder_cpmtent(String border_cpmtent) {
-		this.border_cpmtent = border_cpmtent;
+	public void setBorder_content(String border_content) {
+		this.border_content = border_content;
 	}
 	public String getBorder_file() {
 		return border_file;

@@ -63,17 +63,3 @@ public class LoginController {
 		return view;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

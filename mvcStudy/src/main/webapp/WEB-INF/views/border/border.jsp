@@ -29,7 +29,7 @@
                 	</c:otherwise>
                 </c:choose>
                 <div class="border_insert_button" style="display: ${display };">
-                	<button onclick="location.href='borderinsert'">글쓰기</button>
+                	<button onclick="location.href='/borderinsert'">글쓰기</button>
                 </div>
                 <div class="border_body">
                     <table class="border_table">
